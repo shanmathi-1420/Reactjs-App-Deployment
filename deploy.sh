@@ -10,7 +10,7 @@ if [[ $GIT_BRANCH == "origin/dev" ]]; then
 
   
     # Tag the image
-    docker tag reactjsimg shanmathi20/dev_repo
+    docker tag reactjsimg shanmathi0/dev_repo
 
     # Push the image to the Dev Docker Hub repository
     docker push shanmathi20/dev_repo
