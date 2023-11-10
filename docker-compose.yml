@@ -1,0 +1,6 @@
+version: '3'
+services:
+  reactapp:
+    image: reactjsimg
+    ports:
+      - "80:80"
